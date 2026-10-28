@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parth Sehgal - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Site header: name and student subtitle -->
+  <header>
+    <h1>Parth Sehgal</h1>
+    <p class="subtitle">BTech CSE (Core) Student | Aspiring AI Engineer | JECRC University, Jaipur</p>
+  </header>
+
+  <main>
+    <!-- About: verified facts plus one PLACEHOLDER line for extra details -->
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <div class="card">
+        <p>
+          I am Parth Sehgal, a 2nd year (3rd semester) BTech CSE (Core) student at JECRC University, Jaipur, interested in becoming an AI Engineer.
+        </p>
+        <p>
+          I am passionate about Artificial Intelligence, Python Programming, and Web Development. My goal is to build practical AI solutions, strengthen my problem solving skills, and work on projects that solve real world problems.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills: the six skills provided by the student -->
+    <section id="skills" aria-labelledby="skills-heading">
+      <h2 id="skills-heading">Skills</h2>
+      <div class="card">
+        <ul>
+          <li>AI Engineering</li>
+          <li>Python Programming</li>
+          <li>HTML, CSS and JavaScript</li>
+          <li>Prompt Engineering</li>
+          <li>Data Structures and Algorithms</li>
+          <li>Git and GitHub</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Projects: three entries; only the quiz link is still PLACEHOLDER -->
+    <section id="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <article class="card project-card">
+        <h3>Messy Python</h3>
+        <p>A Python project built using Google Colab.</p>
+        <p>
+          <a href="https://github.com/parth25bcon2440-sys/MESSY-PYTHON-.git" target="_blank" rel="noopener noreferrer">GitHub: Messy Python</a>
+        </p>
+      </article>
+      <article class="card project-card">
+        <h3>Factorial Fibonacci Struct to Dict</h3>
+        <p>A Python project covering factorial, Fibonacci, and struct to dict, built using Google Colab.</p>
+        <p>
+          <a href="https://github.com/parth25bcon2440-sys/factorial-fibonacci-struct-to-dict" target="_blank" rel="noopener noreferrer">GitHub: Factorial Fibonacci Struct to Dict</a>
+        </p>
+      </article>
+      <article class="card project-card">
+        <h3>Interactive Quiz Application</h3>
+        <p>An interactive quiz application.</p>
+        <p>
+          <a href="https://github.com/parth25bcon2440-sys/quiz" target="_blank" rel="noopener noreferrer">GitHub: quiz</a>
+        </p>
+      </article>
+    </section>
+
+    <!-- Contact: real email, phone, LinkedIn, and GitHub -->
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <div class="card">
+        <p>
+          Email:
+          <a href="mailto:Parth.25bcon2440@jecrcu.edu.in">Parth.25bcon2440@jecrcu.edu.in</a>
+        </p>
+        <p>Phone: 6350556554</p>
+        <p>
+          LinkedIn:
+          <a href="https://www.linkedin.com/in/parth-sehgal-7a5381382?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_ios" target="_blank" rel="noopener noreferrer">linkedin.com/in/parth-sehgal-7a5381382</a>
+        </p>
+        <p>
+          GitHub:
+          <a href="https://github.com/parth25bcon2440-sys" target="_blank" rel="noopener noreferrer">github.com/parth25bcon2440-sys</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- Rule-based portfolio chatbot (no APIs) -->
+    <section id="chatbot" aria-labelledby="chatbot-heading">
+      <h2 id="chatbot-heading">Chatbot</h2>
+      <div class="chatbot-widget">
+        <div class="chatbot-header">Portfolio Assistant</div>
+        <div id="chatMessages" class="chat-messages" aria-live="polite"></div>
+        <div class="chat-input-row">
+          <label for="chatInput">Message</label>
+          <input type="text" id="chatInput" name="chatInput" autocomplete="off" placeholder="Type a message...">
+          <button type="button" id="chatSend">Send</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Parth Sehgal | JECRC University, Jaipur</p>
+    <p>
+      <a href="mailto:Parth.25bcon2440@jecrcu.edu.in">Parth.25bcon2440@jecrcu.edu.in</a>
+      |
+      6350556554
+      |
+      <a href="https://www.linkedin.com/in/parth-sehgal-7a5381382?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_ios" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+      |
+      <a href="https://github.com/parth25bcon2440-sys" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </p>
+  </footer>
+  <button id="themeToggle" type="button">Switch to Dark Mode</button>
+  <script src="script.js"></script>
+</body>
+</html>
